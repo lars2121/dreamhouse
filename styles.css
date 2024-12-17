@@ -1,0 +1,171 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Lilita+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Russo+One&family=Tangerine:wght@400;700&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&family=Trochut:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Lilita+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Russo+One&family=Saira+Condensed:wght@200&family=Tangerine:wght@400;700&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&family=Trochut:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+body{
+    font-family: "Saira Condensed";
+    font-weight: 100;
+    font-style: normal;
+
+}
+#portada{
+    padding:0px
+}
+#contacto{
+    text-align: center;
+    background-color:#FFDDFF; 
+    margin: 0px;
+    margin-top: 0px;
+
+}
+header{
+    height: 100vh;
+    background-image: url(/img/fondo.jpg);
+    background-color:thistle ;
+    background-size: cover ;
+    background-repeat: no-repeat;
+     background-position: center -140px;
+}
+.contacto{
+    height: 100px;
+    background-color:thistle ;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center -140px;
+}
+ /* El contenedor del formulario */
+ form{
+            background-color: #ccaaff;
+            padding:15px;
+            width: 350px;
+            margin-left: auto;
+            margin-right: auto;
+            color:white  }
+       input{
+            color: #ccaaee;
+            padding:5px;
+            box-sizing: border-box; 
+            background-color:#ccdddd;
+            border:none; }
+        input:focus{
+            outline:1px solid #FFFFFF;}
+            textarea{
+            color: #ccaaee;
+            padding:5px;
+            box-sizing: border-box; 
+            background-color:#ccdddd;
+            border:none; }
+        input[type="submit"]{
+            background-color:#7AF8CA;
+            color: white;
+            width: 100px;
+            margin: 5px;
+            padding: 15px;
+            border-radius:10%}
+         input[type="reset"]{
+            background-color: #FF98A4;
+            color: white;
+            width: 100px;
+            padding: 15px; 
+            border-radius:10%}
+            input[type="submit"]:hover{
+            background-color: #55D6C2;
+            width: 100px;}
+            .recepcion{background-color:  #ebe8e8;padding: 15px
+            ;background-color: #ffffff; 
+            padding: 15px;
+             margin-bottom: 10px}
+             
+ul{
+    list-style: none;
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+}
+nav li a{
+    color:whitesmoke;
+    text-decoration: none;
+    border: 1px solid ;
+    width: 130px;
+    padding:5px
+}
+nav li a:hover{
+    color:purple;
+    text-decoration: underline ;
+
+}
+.nav-container{
+    height: 70px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around ;
+    background-color:thistle ;
+}
+#portada{
+    padding:10px;
+}
+span{
+   color:mediumpurple;
+   font-family: "Trochut"
+}
+a:hover{
+    color: mediumvioletred ;
+    text-decoration:none;
+}
+.card-container{
+    /* border:1px solid blue;  */
+    max-width: 1300px;
+    min-width: 280px;
+    margin:0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap:15px;
+    justify-content: space-evenly;
+}
+.card{
+    width: 300px;
+    background-color: white;
+    border-radius: 15px 15px 0 0;
+    box-shadow: 3px 3px 5px rgb(171, 170, 170);
+}
+.card img{
+    border-radius: 15px 15px 0 0;
+}
+.card .textos{
+    min-height: 320px;
+    padding:10px;
+    font-weight: 200;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.card button{
+    width: 120px;
+    padding:6px;
+    margin-top:20px;
+    background-color: rgb(170, 116, 220);
+    border:none;
+    color:white;
+}
+.servicios2{
+    background-color: pink;
+    text-align: center;
+    font-size: 30px
+}
+#beige{
+    padding:0px;
+    background-color: beige;
+    margin: 0px;
+}
+footer {
+    background-color:thistle ;
+    text-align: center;
+    margin-top: 10px;
+}
